@@ -12,20 +12,21 @@
 ```text
 Your answer.
 ```
-
+8
 ```rb
 ((16 / 4) * (2 + 1)) ** 2
 ```
 ```text
 Your answer.
 ```
-
+144
 ```rb
 ("a milli " + "a milli") * 3
 ```
 ```text
 Your answer.
 ```
+"a milli a millia milli a millia milli a milli"
 
 ```rb
 ("a milli " * 4) / 2
@@ -33,6 +34,7 @@ Your answer.
 ```text
 Your answer.
 ```
+NoMethodError
 
 ```rb
 my_favorite_number = 13
@@ -41,6 +43,7 @@ puts "My favorite number is: " + my_favorite_number
 ```text
 Your answer.
 ```
+error
 
 ```rb
 my_favorite_number = 13
@@ -50,19 +53,21 @@ puts "My favorite number is: #{my_favorite_number}"
 Your answer.
 ```
 
+13
+
 ### Truthiness and Falsiness
 
 #### Which of these evaluate as `false` in Ruby? Mark all that apply.
 
 ```text
-[ ] false
-[ ] 0
-[ ] ""
-[ ] null
-[ ] [ ] (empty array)
-[ ] undefined
-[ ] NaN
-[ ] nil
+[false ] false
+[ true  ] 0
+[ true] ""
+[false ] null
+[ false] [ ] (empty array)
+[ false] undefined
+[ false] NaN
+[ false] nil
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
@@ -80,6 +85,7 @@ end
 ```text
 Your answer.
 ```
+My name is:   empty
 
 ```rb
 no_name = nil
@@ -91,6 +97,8 @@ end
 Your answer.
 ```
 
+error
+
 ```rb
 age = 21
 if age
@@ -100,7 +108,7 @@ end
 ```text
 Your answer.
 ```
-
+21 
 ```rb
 age = gets.chomp
 if age
@@ -110,6 +118,8 @@ end
 ```text
 Your answer.
 ```
+
+the same as user input
 
 ### Conditionals
 
